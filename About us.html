@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajah/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+       <!-----header------->
+<section id="header">
+    <div class="container text-center">
+        <p data-text="Paris Entertainment Complex(ROYANA)">Paris Entertainment Complex<i class="fa fa-heart-o"></i> (ROYANA)</p>
+    </div>
+</section>
+<!-----header End------>
+  <!---Navigationbar------>
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light "> 
+        <a class="navbar-brand" href="#"><img src="./image/BADGE.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+   <li class="nav-item">
+ <a class="active" href="index.html">HOME</a>
+   <li class="nav-item">
+ <a  href="About us.html">ABOUT US</a>
+<li class="nav-item">
+<a href="workers.html">WORKERS</a>
+     <li class="nav-item">
+            <a href="contact.html">CONTACT</a>      
+<li class="nav-item">
+<a href="price.html">WHAT WE OFFER</a>
+ </li>
+<li class="nav-item">
+<a href="Testimonals.html">TESTIMONALS</a>
+<li class="nav-item">
+<a href="our services.html">OUR SERVICES</a>
+<li class="nav-item">
+<a href="Team members.html">TEAM MEMBERS</a>
+</li>
+</li>
+
+        </li>
+        </ul>
+        </div>
+           </nav>
+</section>
+
+
+
+<!------About---->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8"></div>
+            <br><br>
+            <div class="post">
+                <h2>About us</h2>
+    <div class="History">
+                <p> Paris Entertainment Complex (Royana) is an entertainment place where you can get all kind of drinks,food,
+                     mostly africa food and other items. Also a place to get good rest and entertainment, we carter for all 
+                    kind of customers according to their needs and satisfaction. we have different Activities and 
+                events we normally do and host different occasions </p>
+            
+             </div>
+            <p> <h1>History</h1>
+Royana Entertainment Complex now called Paris Entertainment Complex was a name given after a nearby village from Mile 91.
+This village is the home town of the founder and proprietor Inspector Mohamed Kamara. Royana is a native name given to a river
+which simply mean “It will never get dry” come rain come san. It was named to the club as a means of tradition representation
+that the club will never dry of people. It is the first entertainment complex in mile 91. It was founded around 1970.
+   It a club that has being there to help the people of the community by providing for them community well, access to the
+club when someone in the community is in need of it. <span id="dots">....</span><span id="more"> 
+ The ownership and leadership of the business was transfer to a niece of the owner after the 11 years civil war. She tried 
+ had to maintain the business and kept all the instructions given to her by her uncle and the entire family members.
+At around 2019/2020, Madam Zainab the current proprietor ran into financial trouble and run down of business,
+due to bad management from employees. She meant with family members and explained things to them that they might put
+heads together to have a comeback for the club but the only positive idea that was there at that time due to lack of finance.
+She decided to call for partnership with a young business and entrepreneur tycoon who double as the Social Manager of 
+Sierra Leone based Forestry Company called Miro located at Mile 91. This young man is Mr.Yamba Kapan Bangura commonly
+called Manager.  Since 2020 Royana has a drastic rehabilitation due to the solid partnership done. It started to have 
+24 hours services, establishment of guest rooms, hosting of frequent shows and birthday. It also becomes the main point 
+for students of Canadian College of Modern Technology due to the cordial relationship with the new partner to the business Mr Yabam Kapen. 
+This complex has many qualities and facilities to host any such of events. There is an air condition system for the main hall,
+bar and guest room. There is a free wifi system for guest and visitors. Every Wednesday we observe a free ladies night and 
+Saturday a special events night. The new partner to the business decided that they should renamed the club after they have 
+rebrand it to its current looks but not to erase the name ROYANA due to its meaning. They currently named it Paris
+ Entertainment Complex (PEC) but most people choose to call it Royana. As at now, Pec is the most visited club and 
+ entertainment complex as is located at a strategic point at mile 91. </span>
+        </p>
+        <br><br>
+        <button onclick="read_more_less()" class="btn btn-success" id="mybtn">Read more</button>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        </div>
+</section>
+<div class="footer">
+    <p>Paris Entertainment Complex</p>
+    
+        <ul class="socials">
+            <li><a href="www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+    
+        <P>copyright &copy;2021 PEC, designed by <span>Natciss</span></P>
+  </div>
+</body>
+</html>
+<script>
+    function read_more_less()
+    {
+        var dots =document.getElementById('dots');
+        var moretext =document.getElementById('more');
+        var mybtn =document.getElementById('mybtn');
+    
+    if(dots.style.display === 'none')
+    {
+        dots.style.display ='inline';
+        moretext.style.display ='none';
+        mybtn.innerHTML = "Read more";
+    }
+    else
+    {
+        dots.style.display ='none';
+        moretext.style.display ='inline';
+        mybtn.innerHTML = "Read less";
+    }
+    }
+    </script>
+
+  
